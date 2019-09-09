@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>100</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Utiles</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>100</y>
+      <w>210</w>
+      <h>550</h>
+    </coordinates>
+    <panel_attributes>Integer
+--
+#Define ZERO 0
+#Define ONE 1
+--
++Integer();
++~Integer();
++Integer(Integer&amp;);
++sumar(int):int;
++sumar(double):double;
++restar(int):int;
++restar(double):double;
++division(int):int;
++division(double):double;
++multiplicacion(int):int;
++multiplicacion(double):double;
++operator==(Integer&amp;):bool;
++operator*(Integer&amp;):Integer;
++operator/(Integer&amp;):Integer;
++operator+(Integer&amp;):Integer;
++operator-(Integer&amp;):Integer;
++operator=(Integer&amp;):Integer;
++operator+=(Integer&amp;):Integer;
++operator-=(Integer&amp;):Integer;
++operator*=(Integer&amp;):Integer;
++operator/=(Integer&amp;):Integer;
++operator!=(Integer&amp;):Integer;
++operator&lt;(Integer&amp;):Integer;
++operator&lt;=(Integer&amp;):Integer;
++operator&gt;(Integer&amp;):Integer;
++operator&gt;=(Integer&amp;):Integer;
++operator&lt;&lt;(Integer&amp;):String;
++parse(string):int
++parse(string):long
++toString():String;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
