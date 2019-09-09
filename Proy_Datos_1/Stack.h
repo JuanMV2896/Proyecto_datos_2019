@@ -15,7 +15,6 @@
 #ifndef STACK_H
 #define STACK_H
 
-
 // <editor-fold defaultstate="collapsed" desc="CLASS LINK">
 //==============================================================================
 //                                CLASS LINK
@@ -25,11 +24,11 @@ template <class T>
 class Link {
 public:
     Link();
-//    Link(T& info, Link<T>* next);
-    Link(T info, Link<T>* next);
+    Link(T& info, Link<T>* next);
+    //Link(T info, Link<T>* next);
     Link(T& info);
     T* getInfo();
-    T getValor();
+    //T getValor();
     Link<T>* getNext();
     void setNext(Link<T>* next);
     T& operator<(const T&);
@@ -40,15 +39,15 @@ public:
     T& operator<=(const T&);
     T& operator+(const T&);
 private:
-    T _valor;
+    //T _valor;
     T* info;
     Link<T>* next;
 };
 
-template <class T>
-T Link<T>::getValor(){
-    return _valor;
-}
+//template <class T>
+//T Link<T>::getValor(){
+//    return _valor;
+//}
 
 template <class T>
 Link<T>::Link() {
@@ -99,17 +98,17 @@ void Link<T>::operator=(const T& x) {
     *this->info = x;
 }
 
-//template <class T>
-//Link<T>::Link(T& info, Link<T>* next) {
-//    this->info = &info;
-//    this->next = next;
-//}
-
 template <class T>
-Link<T>::Link(T info, Link<T>* next) {
-    this->_valor = info;
+Link<T>::Link(T& info, Link<T>* next) {
+    this->info = &info;
     this->next = next;
 }
+
+//template <class T>
+//Link<T>::Link(T info, Link<T>* next) {
+//    this->_valor = info;
+//    this->next = next;
+//}
 
 template <class T>
 Link<T>::Link(T& _info) {
@@ -141,7 +140,7 @@ public:
     bool isEmpty()const;
     int count()const;
     T* top()const;
-    T verTop()const;
+    //T verTop()const;
     void push(T x);
     T pop();
     T suma();
@@ -182,10 +181,10 @@ template <class T>
 T* Stack<T>::top() const{
     return isEmpty() ? NULL : first->getInfo();
 }
-template <class T>
-T Stack<T>::verTop() const{
-    return isEmpty() ? NULL : first->getValor();
-}
+//template <class T>
+//T Stack<T>::verTop() const{
+//    return isEmpty() ? NULL : first->getValor();
+//}
 template <class T>
 void Stack<T>::push(T x){
     add_first(x);
@@ -206,7 +205,7 @@ template <class T>
 T Stack<T>::remove_first(){
     T r;
     if (!isEmpty()) {
-        r = first->getValor();
+        r = first->getInfo();
         first = first->getNext();
         if (!first) {
             last = NULL;
