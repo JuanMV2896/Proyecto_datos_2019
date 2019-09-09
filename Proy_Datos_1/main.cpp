@@ -6,7 +6,7 @@
 
 /* 
  * File:   main.cpp
- * Author: sebas
+ * Author: sebas y juan
  *
  * Created on 9 de septiembre de 2019, 03:47 PM
  */
