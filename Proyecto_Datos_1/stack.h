@@ -7,7 +7,7 @@
 #include <sstream>
 using namespace std;
 
-#define MAX_ELEMENTS 4
+#define MAX_ELEMENTS 20
 
 template <class T>
 class stack {
