@@ -38,6 +38,9 @@
       <compileType>
         <ccTool>
           <standard>4</standard>
+          <incFile>
+            <pElem>stack.h</pElem>
+          </incFile>
         </ccTool>
       </compileType>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">

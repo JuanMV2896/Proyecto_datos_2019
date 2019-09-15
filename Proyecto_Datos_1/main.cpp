@@ -37,6 +37,7 @@ int main(int argc, char** argv) {
     s0->push(12);
     cout << "s0: " << s0->toString() << endl;
     cout << "Hola mundo ..." << endl;
+    cout<<"No me corre.....nel es un problema de MingW"<<endl;
     cout << endl;
 
     return 0;
