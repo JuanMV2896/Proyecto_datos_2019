@@ -13,6 +13,7 @@
 
 #include <cstdlib>
 #include "stack.h"
+#include "lista.h"
 using namespace std;
 
 /*
@@ -24,7 +25,7 @@ int main(int argc, char** argv) {
     system("chcp 65001");
     cout << endl;
 #endif
-
+    string p;
     stack<int>* s0 = new stack<int>();
 
     s0->push(15);

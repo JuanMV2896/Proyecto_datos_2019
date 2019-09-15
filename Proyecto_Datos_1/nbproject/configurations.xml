@@ -4,6 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Integer.h</itemPath>
+      <itemPath>lista.h</itemPath>
       <itemPath>stack.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -13,6 +15,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Integer.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -43,6 +46,12 @@
           </incFile>
         </ccTool>
       </compileType>
+      <item path="Integer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Integer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lista.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">
@@ -69,6 +78,12 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Integer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Integer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lista.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">

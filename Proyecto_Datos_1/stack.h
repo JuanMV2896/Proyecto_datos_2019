@@ -25,7 +25,7 @@ public:
     virtual void push(T);
     virtual T pop();
 
-    virtual std::string toString() const;
+    virtual string toString() const;
 
 private:
     int _n;
