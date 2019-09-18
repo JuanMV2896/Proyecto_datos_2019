@@ -16,42 +16,43 @@
 
 #include"lista.h"
 #include"stack.h"
+#include "objetoBase.h"
 
 #define ZERO 0
 #define ONE 1
 
 using namespace std;
-class Integer {
+class Integer : public objetoBase{
 public:
     Integer();
     Integer(const Integer& orig);
     virtual ~Integer();
-    virtual Integer* sumar(Integer*);
-    virtual Integer* restar(Integer*);
-    virtual Integer* division(Integer*);
-    virtual Integer* multiplicacion(Integer*);
-    virtual Integer& operator==(const Integer&);
-    virtual Integer& operator*(const Integer&);
-    virtual Integer& operator/(const Integer&);
-    virtual Integer& operator+(const Integer&);
-    virtual Integer& operator-(const Integer&);
-    virtual Integer& operator=(const Integer&);
-    virtual Integer& operator+=(const Integer&);
-    virtual Integer& operator-=(const Integer&);
-    virtual Integer& operator*=(const Integer&);
-    virtual Integer& operator/=(const Integer&);
-    virtual Integer& operator!=(const Integer&);
-    virtual Integer& operator<(const Integer&);
-    virtual Integer& operator<=(const Integer&);
-    virtual Integer& operator>(const Integer&);
-    virtual Integer& operator>=(const Integer&);
-    virtual Integer& operator<<(const Integer&);
-    virtual long* parse(string);
-    virtual int* parse(string);
+//    virtual Integer* sumar(Integer*);
+//    virtual Integer* restar(Integer*);
+//    virtual Integer* division(Integer*);
+//    virtual Integer* multiplicacion(Integer*);
+//    virtual Integer& operator==(const Integer&);
+//    virtual Integer& operator*(const Integer&);
+//    virtual Integer& operator/(const Integer&);
+//    virtual Integer& operator+(const Integer&);
+//    virtual Integer& operator-(const Integer&);
+//    virtual Integer& operator=(const Integer&);
+//    virtual Integer& operator+=(const Integer&);
+//    virtual Integer& operator-=(const Integer&);
+//    virtual Integer& operator*=(const Integer&);
+//    virtual Integer& operator/=(const Integer&);
+//    virtual Integer& operator!=(const Integer&);
+//    virtual Integer& operator<(const Integer&);
+//    virtual Integer& operator<=(const Integer&);
+//    virtual Integer& operator>(const Integer&);
+//    virtual Integer& operator>=(const Integer&);
+//    virtual Integer& operator<<(const Integer&);
+//    virtual long* parse(string);
+//    virtual int* parse(string);
     
 private:
-    lista* _lista;
-    stack* _stack;
+//    lista* _lista;
+//    stack* _stack;
 };
 
 #endif /* INTEGER_H */

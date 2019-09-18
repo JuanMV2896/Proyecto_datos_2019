@@ -14,6 +14,7 @@
 #include <cstdlib>
 #include "stack.h"
 #include "lista.h"
+#include"coleccion.h"
 using namespace std;
 
 /*
@@ -41,6 +42,12 @@ int main(int argc, char** argv) {
     cout<<"No me corre.....nel es un problema de MingW"<<endl;
     cout<<"Me estan dando ganas de bailar un piche cumbion bien loco.."<<endl;
     cout << endl;
+    
+    coleccion<stack<int> > *l1 = new lista<stack<int> >();
+    
+    l1->agregar(s0);
+    
+    cout<<l1->toString();
 
     return 0;
 }

@@ -5,7 +5,10 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Integer.h</itemPath>
+      <itemPath>Utiles.h</itemPath>
+      <itemPath>coleccion.h</itemPath>
       <itemPath>lista.h</itemPath>
+      <itemPath>objetoBase.h</itemPath>
       <itemPath>stack.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -16,7 +19,10 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Integer.cpp</itemPath>
+      <itemPath>Utiles.cpp</itemPath>
+      <itemPath>coleccion.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
+      <itemPath>objetoBase.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -50,9 +56,21 @@
       </item>
       <item path="Integer.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Utiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="coleccion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="coleccion.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="lista.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objetoBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objetoBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -82,9 +100,21 @@
       </item>
       <item path="Integer.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Utiles.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utiles.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="coleccion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="coleccion.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="lista.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objetoBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="objetoBase.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">
       </item>

@@ -36,7 +36,10 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Integer.o \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/Utiles.o \
+	${OBJECTDIR}/coleccion.o \
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/objetoBase.o
 
 
 # C Compiler Flags
@@ -68,10 +71,25 @@ ${OBJECTDIR}/Integer.o: Integer.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++98 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Integer.o Integer.cpp
 
+${OBJECTDIR}/Utiles.o: Utiles.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++98 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Utiles.o Utiles.cpp
+
+${OBJECTDIR}/coleccion.o: coleccion.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++98 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/coleccion.o coleccion.cpp
+
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++98 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+
+${OBJECTDIR}/objetoBase.o: objetoBase.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++98 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/objetoBase.o objetoBase.cpp
 
 # Subprojects
 .build-subprojects:

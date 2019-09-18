@@ -5,12 +5,13 @@
 #include <exception>
 #include <iostream>
 #include <sstream>
+#include "objetoBase.h"
 using namespace std;
 
 #define MAX_ELEMENTS 20
 
 template <class T>
-class stack {
+class stack : public objetoBase{
 public:
     stack(int = MAX_ELEMENTS);
     stack(const stack<T>&);
