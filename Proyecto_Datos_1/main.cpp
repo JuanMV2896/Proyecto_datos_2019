@@ -38,10 +38,6 @@ int main(int argc, char** argv) {
     s0->push(23);
     s0->push(12);
     cout << "s0: " << s0->toString() << endl;
-    cout << "Hola mundo ..." << endl;
-    cout<<"No me corre.....nel es un problema de MingW"<<endl;
-    cout<<"Me estan dando ganas de bailar un piche cumbion bien loco.."<<endl;
-    cout << endl;
     
     coleccion<stack<int> > *l1 = new lista<stack<int> >();
     
