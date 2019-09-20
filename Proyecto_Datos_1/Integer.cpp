@@ -16,6 +16,24 @@
 Integer::Integer() {
 }
 
+Integer::Integer(lista* l, stack* s) {
+    _lista = l;
+    _stack = s;
+}
+
+void Integer::setlista(lista* l){
+    _lista = l;
+}
+lista* Integer::getlista(){
+    return _lista;
+}
+void Integer::setsatck(stack* s){
+    _stack = s;
+}
+stack* Integer::getsatck(){
+    return _stack;
+}
+
 Integer::Integer(const Integer& orig) {
 }
 

@@ -25,6 +25,7 @@ using namespace std;
 class Integer : public objetoBase{
 public:
     Integer();
+    Integer(lista*, stack*);
     Integer(const Integer& orig);
     virtual ~Integer();
 //    virtual Integer* sumar(Integer*);
@@ -49,10 +50,14 @@ public:
 //    virtual Integer& operator<<(const Integer&);
 //    virtual long* parse(string);
 //    virtual int* parse(string);
+    virtual void setlista(lista*);
+    virtual lista* getlista();
+    virtual void setsatck(stack*);
+    virtual stack* getsatck();
     
 private:
-//    lista* _lista;
-//    stack* _stack;
+    lista* _lista;
+    stack* _stack;
 };
 
 #endif /* INTEGER_H */
